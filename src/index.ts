@@ -24,5 +24,5 @@ app.listen(port, () => {
   // Logger.info("This is a info log");
   // Logger.http("This is a http log");
   // Logger.debug("This is a debug log");
-  Logger.info("[server]: Server is running at http://localhost:"+ {port});
+  Logger.info("[server]: Server is running at http://localhost:"+ port);
 });
